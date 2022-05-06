@@ -54,7 +54,7 @@
   text-underline-offset: 2px;
 }
 .side-navigation-item.active .side-navigation-item-icon {
-  background-color: #5881e9;
+  background: linear-gradient(to right, #80b9f7 50%, #5881e9);
   color: white;
 }
 .side-navigation-item.active span {

@@ -69,7 +69,7 @@
 
 	&.active {
 		.side-navigation-item-icon {
-			background-color: $clr-dark-blue;
+			background: linear-gradient(to right, $clr-light-blue 50%, $clr-dark-blue);
 			color: white;
 		}
 
