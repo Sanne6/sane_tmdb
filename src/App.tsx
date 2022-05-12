@@ -26,6 +26,7 @@ function App() {
 							<Route path=":id" element={<MovieDetails />} />
 						</Route>
 					</Route>
+
 					<Route path="/tv" element={<div>tv</div>} />
 				</Routes>
 			</BrowserRouter>
