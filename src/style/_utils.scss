@@ -1,4 +1,30 @@
+$clr-off-black: #323435;
 $clr-light-gray: #e5e6e8;
 $clr-dark-gray: #a6a8a9;
 $clr-dark-blue: #5881e9;
 $clr-light-blue: #80b9f7;
+
+$screen-sm: 639px;
+$screen-md: 767px;
+$screen-lg: 1023px;
+$screen-xl: 1279px;
+$screen-xxl: 1535px;
+
+$box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+.section-title {
+	margin: 1.5em 0;
+
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: $clr-off-black;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
